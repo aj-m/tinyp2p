@@ -31,3 +31,9 @@
 # Debug files
 *.dSYM/
 *.su
+
+# Vim files
+*.c~
+*.h~
+*.un~
+.gitignore~
