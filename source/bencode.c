@@ -7,6 +7,13 @@ int main(int argc, char** argv){
 }
 #endif
 
+enum bencode_type {
+	BYTESTRING_bct,
+	INTEGER_bct,
+	LIST_bct,
+	DICT_bct
+};
+
 void* bencode_decode(const char* encoded_str){
 	printf("%s\n", encoded_str);
 	return NULL;
