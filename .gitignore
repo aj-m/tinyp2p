@@ -33,7 +33,4 @@
 *.su
 
 # Vim files
-*.c~
-*.h~
-*.un~
-.gitignore~
+*.*~
