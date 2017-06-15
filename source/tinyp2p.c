@@ -20,3 +20,15 @@ int main(int argc, char** argv){
 }
 #endif
 
+void *create_info_dict(int mode, int piece_length, char *pieces, int private) {
+	return NULL;
+}
+
+void *create_info_dict_single() {
+	return NULL;
+}
+
+void *create_info_dict_multi() {
+	return NULL;
+}
+
